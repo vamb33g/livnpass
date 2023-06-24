@@ -38,7 +38,8 @@ const Analytics = () => {
                   <br />
                   <div className='flex'>
                   <SiWebmoney className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
-                  <span>site web vtc-thierry</span></div>
+                  <span className='border-b border-black cursor-pointer'>site web vtc-thierry</span></div>
+                  <div className='p-1'></div>
                 </Link>
                 <div className="flex">
                   <AiFillCar className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
@@ -62,7 +63,7 @@ const Analytics = () => {
               <li>🚀 Livraisons rapides et sécurisées.</li>
             </ul>
           </div>
-          <button className="bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto  md:mx-0 py-3 hover:bg-slate-600 md:w-[300px] md:h-[60px] md:text-xl">
+          <button className="bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-l lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl">
             <Link href={'/pages/about'}>NOUS DÉCOUVRIR</Link>
           </button>
         </div>
