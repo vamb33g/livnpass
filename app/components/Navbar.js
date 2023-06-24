@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="z-50 flex justify-between h-240mx-auto p-4 text-white text-xl fixed top-0 left-0 w-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400">
+    <div className="z-50 flex justify-between items-center h-16 mx-auto p-4 text-white text-xl fixed top-0 left-0 w-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400">
       <h1 className={`w-full text-3xl font-bold text-[black] ${nav ? 'hidden' : ''}`}>
         {!toggle | !nav ? (
           <Link href={'/'}>

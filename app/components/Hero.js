@@ -16,7 +16,7 @@ const Hero = () => {
         height={1080}
       />
       <div className="absolute top-0 w-full h-screen flex flex-col justify-center items-center">
-        <p className="text-white-900 text-4xl p-2 sm:text-5xl md:text-6xl">
+        <p className="text-white-900 text-5xl p-2 sm:text-5xl md:text-6xl font-semi-bold text-outline-black">
           Votre spécialiste
           <br />
         </p>

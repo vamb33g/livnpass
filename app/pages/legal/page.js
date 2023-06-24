@@ -2,7 +2,7 @@ import React from 'react';
 
 const LegalMention = () => {
   return (
-    <div className="bg-gray-100 text-black p-8 mt-24">
+    <div className="bg-gray-100 text-black p-8 pt-20">
       <h1 className="text-2xl font-bold mb-4">Mention Légales</h1>
       <p className="mb-2">Date de création de l'entreprise: 02-09-2016 <br />(il y a 6 ans)</p>
       <p className="mb-2">Statuts constitutifs: Société par actions simplifiée depuis le 10-09-2016</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="bg-gray-100 text-black p-8 md:w-3/4 lg:w-1/2 mx-auto mt-24">
+    <div className="bg-gray-100 text-black p-8 md:w-3/4 mx-auto pt-20 ">
       <h1 className="text-2xl font-bold mb-4">Politique de confidentialité</h1>
       <p className="mb-2">Chez Liv&Pass Transports, nous accordons une grande importance à la confidentialité et à la sécurité de vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre site web et nos services.</p>
       <h2 className="text-xl font-bold mt-6 mb-4">Collecte d'informations</h2>

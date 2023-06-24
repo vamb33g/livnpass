@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
       <div className=" text-center">
         <h1 className="w-full text-xl sm:text-3xl font-bold text-black whitespace-pre-line mb-3">
-          <span className="sm:block">LIENS </span>
+          <span className="">LIENS </span>
           UTILES
         </h1>
         <ul>
