@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { AiFillCar } from 'react-icons/ai';
+import { SiWebmoney } from 'react-icons/si';
 
 const Analytics = () => {
   const [numTelVTC, setNumTelVTC] = useState(false);
@@ -15,7 +16,7 @@ const Analytics = () => {
           <p className="text-[#00df9a] font-bold text-3xl p-2 sm:text-5xl md:text-6xl mb-5">
             Liv&Pass Transports
           </p>
-          <div className="sm:text-xl">
+          <div className="sm:text-xl ">
             <p className="text-black p-2 mb-5">
               Votre partenaire de confiance pour des livraisons de qualité et un transport de
               personnes sûr.
@@ -34,6 +35,10 @@ const Analytics = () => {
                   <span className="font-bold cursor-pointer hover:text-slate-500">
                     VTC : Contacter Thierry Schmidt
                   </span>
+                  <br />
+                  <div className='flex'>
+                  <SiWebmoney className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
+                  <span>site web vtc-thierry</span></div>
                 </Link>
                 <div className="flex">
                   <AiFillCar className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
