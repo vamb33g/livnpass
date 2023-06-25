@@ -3,7 +3,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div className="pt-20 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500">      
-      <div className="p-8 md:w-3/4 mx-auto leading-loose text-gray-800">
+      <div className="p-7 md:w-3/4 mx-auto leading-loose text-gray-800">
         <h1 className="text-3xl font-bold mb-6 text-white text-center md:text-4xl lg:text-5xl">
           Bienvenue chez Liv&Pass Transports
         </h1>
