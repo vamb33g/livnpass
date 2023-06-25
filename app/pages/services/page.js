@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { AiFillCar } from 'react-icons/ai';
+import { SiWebmoney } from 'react-icons/si';
 
 const Stockage = () => {
   const [numTel, setNumTel] = useState(false);
@@ -70,16 +71,18 @@ const Stockage = () => {
               VTC expérimentés et professionnels. Que ce soit pour un déplacement professionnel ou
               personnel, nos chauffeurs vous offriront un trajet confortable et sécurisé.
             </p>
-            
-              
-              <Link href={'https://bonvtc.fr/brest-thierry-vtc-29'}>
+
+            <Link href={'https://bonvtc.fr/brest-thierry-vtc-29'}>
               <span className="font-bold cursor-pointer hover:text-slate-500">
                 VTC : Contacter Thierry Schmidt
               </span>
-              
+              <div className='flex'>
+                  <SiWebmoney className="w-6 h-6 text-green-700" /> &nbsp; : &nbsp;
+                  <span className='border-b-2 border-blue-700 cursor-pointer text-blue-700'>site web vtc-thierry</span></div>
+                  <div className='p-1'></div>
             </Link>
-            <div className='flex'>
-            <AiFillCar className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
+            <div className="flex">
+              <AiFillCar className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
               {numTelVTC ? (
                 '07 69 41 58 87'
               ) : (
@@ -89,7 +92,9 @@ const Stockage = () => {
                 >
                   Afficher le numéro
                 </button>
-              )} <br /></div>
+              )}{' '}
+              <br />
+            </div>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow text-black hover:-translate-y-2">
@@ -100,7 +105,17 @@ const Stockage = () => {
               vos besoins dans les délais les plus courts possibles.
             </p>
             <span className="font-bold cursor-pointer hover:text-slate-500">
-              🚀 : 07 62 13 32 25
+              🚀 &nbsp; : &nbsp;
+              {numTel3 ? (
+                '07 62 13 32 25'
+              ) : (
+                <button
+                  onClick={() => setNumTel3(true)}
+                  className="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+                >
+                  Afficher le numéro
+                </button>
+              )}
             </span>
           </div>
 
@@ -113,7 +128,18 @@ const Stockage = () => {
               sûres.
             </p>
             <span className="font-bold cursor-pointer hover:text-slate-500">
-              🔒 : 07 62 13 32 25
+              🔒 &nbsp; : &nbsp; 
+              {numTel4 ? (
+                '07 62 13 32 25'
+              ) : (
+                <button
+                  onClick={() => setNumTel4(true)}
+                  className="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+                >
+                  Afficher le numéro
+                </button>
+              )}
+              
             </span>
           </div>
 
@@ -127,7 +153,14 @@ const Stockage = () => {
               d'une solution sur mesure répondant à vos besoins spécifiques.
             </p>
             <span className="font-bold cursor-pointer hover:text-slate-500">
-              🚛 : 07 62 13 32 25
+              🚛 &nbsp; : &nbsp; { numTel5 ? ('07 62 13 32 25') : (
+                <button
+                  onClick={() => setNumTel5(true)}
+                  className="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+                >
+                  Afficher le numéro
+                </button>
+              )} 
             </span>
           </div>
         </div>

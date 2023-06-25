@@ -37,8 +37,8 @@ const Analytics = () => {
                   </span>
                   <br />
                   <div className='flex'>
-                  <SiWebmoney className="w-6 h-6 text-slate-600 " /> &nbsp; : &nbsp;
-                  <span className='border-b border-black cursor-pointer'>site web vtc-thierry</span></div>
+                  <SiWebmoney className="w-6 h-6 text-green-700" /> &nbsp; : &nbsp;
+                  <span className='border-b-2 border-blue-700 cursor-pointer text-blue-700'>site web vtc-thierry</span></div>
                   <div className='p-1'></div>
                 </Link>
                 <div className="flex">
