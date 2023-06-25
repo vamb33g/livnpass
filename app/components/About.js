@@ -12,7 +12,7 @@ const Analytics = () => {
           <div className="flex flex-col justify-center">
             <div className="p-8 bg-slate-400 text-center shadow-md rounded-lg pb-4">
               <p className="text-lg mb-2">
-                Créée en 2016, notre entreprise offre deux services principaux :
+                Fondée en 2016, notre entreprise offre deux services principaux :
               </p>
               <ul className="list-disc list-inside text-left mb-4">
                 <li className="mb-2">
