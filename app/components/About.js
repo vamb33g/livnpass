@@ -17,7 +17,6 @@ const Analytics = () => {
               <ul className="list-disc list-inside text-left mb-4">
                 <li className="mb-2">
                   <strong>Transport de marchandises</strong> dirigé par
-                  <br />
                   M. ECHARKI Abdelhakim
                 </li>
                 <li>
