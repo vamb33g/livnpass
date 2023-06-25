@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <p className="mb-4">
             En plus de notre activité de transport de marchandises, nous proposons également un
-            service de <Link href='https://bonvtc.fr/brest-thierry-vtc-29'><span className="font-semibold uppercase">transport de personnes</span></Link> . Sous la direction de Monsieur SCHMIDT Thierry, notre
+            service de <Link href='https://bonvtc.fr/brest-thierry-vtc-29'><span className="font-semibold uppercase">transport de personnes.</span></Link> Sous la direction de Monsieur SCHMIDT Thierry, notre
             équipe de chauffeurs VTC expérimentés est prête à vous offrir un voyage confortable et
             sécurisé. Que ce soit pour un trajet professionnel ou personnel, nos chauffeurs sont
             disponibles pour vous conduire à destination avec professionnalisme et courtoisie.
