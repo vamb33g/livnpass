@@ -2,9 +2,10 @@ const About = () => {
   return (
     <div className="pt-20 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500">      
       <div className="p-8 md:w-3/4 mx-auto leading-loose text-gray-800">
-        <h1 className="text-3xl font-bold mb-6 text-white">
-          Bienvenue chez Liv&Pass Transports !
+        <h1 className="text-3xl font-bold mb-6 text-white text-center">
+          Bienvenue chez Liv&Pass Transports
         </h1>
+        <br />
         <p className="mb-6 text-lg">
           Liv&Pass Transports est une société spécialisée dans la livraison de qualité, fondée en
           2016 par trois associés. Nous sommes fiers de proposer une gamme
