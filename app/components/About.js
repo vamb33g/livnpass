@@ -16,7 +16,9 @@ const Analytics = () => {
               </p>
               <ul className="list-disc list-inside text-left mb-4">
                 <li className="mb-2">
-                  <strong>Transport de marchandises</strong> dirigé par M. ECHARKI Abdelhakim
+                  <strong>Transport de marchandises</strong> dirigé par
+                  <br />
+                  M. ECHARKI Abdelhakim
                 </li>
                 <li>
                   <strong>Transport de personnes</strong> sous la direction de M. SCHMIDT Thierry
