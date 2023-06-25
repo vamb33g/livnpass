@@ -9,10 +9,10 @@ const Footer = () => {
         </h1>
         <ul>
           <Link href={'/'}>
-            <li className="py-2 text-md lg:text-xl">Accueil</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Accueil</li>
           </Link>
           <Link href={'/pages/contact'}>
-            <li className="py-2 text-md lg:text-xl">Contact</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Contact</li>
           </Link>
         </ul>
       </div>
@@ -22,10 +22,10 @@ const Footer = () => {
         </h1>
         <ul>
           <Link href="/pages/services">
-            <li className="py-2 text-md lg:text-xl">Transports</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Transports</li>
           </Link>
           <Link href="/pages/services">
-            <li className="py-2 text-md lg:text-xl">Stockage</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Stockage</li>
           </Link>
         </ul>
       </div>
@@ -36,10 +36,10 @@ const Footer = () => {
         </h1>
         <ul>
           <Link href="/pages/legal">
-            <li className="py-2 text-md lg:text-xl">Mentions légales</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Mentions légales</li>
           </Link>
           <Link href="/pages/privacy">
-            <li className="py-2 text-md lg:text-xl">Politique de confidentialité</li>
+            <li className="py-2 text-md lg:text-xl hover:text-slate-300">Politique de confidentialité</li>
           </Link>
         </ul>
       </div>

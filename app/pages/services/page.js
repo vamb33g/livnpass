@@ -15,7 +15,7 @@ const Stockage = () => {
 
   return (
     <>
-      <div className="pt-10 px-4 mt-16 z-40 bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600">
+      <div className="pt-10 px-4 mt-16 z-40 bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 pb-10">
         <h1 className="text-3xl font-bold mb-8">Nos Services</h1>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
