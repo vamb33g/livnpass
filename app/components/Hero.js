@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className="text-white flex min-h-screen">
       <Image
-        src="/assets/l3-.png"
-        className="w-full h-screen object-cover opacity-70"
+        src="/assets/bg-hero.webp"
+        className="w-full h-screen object-cover"
         alt="hero"
         width={1920}
         height={1080}
