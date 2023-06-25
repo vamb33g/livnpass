@@ -1,18 +1,29 @@
+'use client';
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { AiFillCar } from 'react-icons/ai';
 import { SiWebmoney } from 'react-icons/si';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
 
 const Analytics = () => {
   const [numTelVTC, setNumTelVTC] = useState(false);
   return (
     <div className="w-full bg-white py-10 px-4 min-h-screen">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img
+      <motion.div
+            variants={fadeIn('down', 0.1)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.2 }}
+          ><img
           src="/assets/laptop.jpg"
           alt="Laptop"
-        />
+        /></motion.div>
+        
         <div className="flex flex-col justify-center">
+        
           <p className="text-[#00df9a] font-bold text-3xl p-2 sm:text-5xl md:text-6xl mb-5">
             Liv&Pass Transports
           </p>

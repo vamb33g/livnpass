@@ -1,4 +1,5 @@
 'use client';
+
 import Hero from '../app/components/Hero';
 import Analytics from './components/About';
 
