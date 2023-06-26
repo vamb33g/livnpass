@@ -23,7 +23,7 @@ const Hero = () => {
       />
       <Image
         src="/assets/3008-t.png"
-        className="absolute bottom-0 mr-24 opacity-60 md:opacity-100 lg:w-1/3"
+        className="absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3"
         alt="hero"
         width={500}
         height={500}
