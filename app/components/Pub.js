@@ -6,7 +6,7 @@ import pub2 from '/public/assets/livnpass2.png';
 
 const Pub = () => {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row lg:w-1/2">
     <Image
         alt="pub"
         src={pub2}

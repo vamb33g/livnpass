@@ -4,8 +4,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Hero = () => {
+
   return (
-    <div className="text-white flex min-h-screen">
+    <div className="text-white flex flex-col min-h-screen">
       <Image
         src="/assets/hero3.png"
         className="w-full h-screen object-cover"
@@ -15,14 +16,14 @@ const Hero = () => {
       />
       <Image
         src="/assets/20m3-t.png"
-        className="absolute right-0"
+        className="absolute right-0 opacity-60 md:opacity-100 lg:w-1/3"
         alt="hero"
         width={500}
         height={500}
       />
       <Image
         src="/assets/3008-t.png"
-        className="absolute bottom-0 mr-24"
+        className="absolute bottom-0 mr-24 opacity-60 md:opacity-100 lg:w-1/3"
         alt="hero"
         width={500}
         height={500}
@@ -33,8 +34,8 @@ const Hero = () => {
 
         <br />
 
-        <p className="p-4 text-center">
-          <span className="text-5xl md:text-6xl lg:text-7xl p-4 font-semibold uppercase ">
+        <p className="p-4 text-center font-mono ">
+          <span className="text-5xl md:text-6xl lg:text-7xl p-4 font-semibold uppercase">
             Logistique{' '}
           </span>
 

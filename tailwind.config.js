@@ -15,6 +15,9 @@ module.exports = {
       textShadow: {
         'outline-black': '2px 2px black',
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
     },
   },
   plugins: [],
