@@ -35,7 +35,7 @@ const Hero = () => {
         <br />
 
         <p className="p-4 text-center font-mono ">
-          <span className="text-5xl md:text-6xl lg:text-7xl p-4 font-semibold uppercase">
+          <span className="text-5xl md:text-6xl lg:text-7xl p-4 font-semibold uppercase outline-black ">
             Logistique{' '}
           </span>
 
@@ -51,7 +51,7 @@ const Hero = () => {
           </span>
         </p>
         <br />
-        <button className="bg-gradient-to-l from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-r  lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl opacity-80">
+        <button className="animate-wiggle bg-gradient-to-l from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-r  lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl opacity-80">
           <Link href="/pages/services">En savoir plus </Link>
         </button>
       </div>
