@@ -7,15 +7,29 @@ const Hero = () => {
   return (
     <div className="text-white flex min-h-screen">
       <Image
-        src="/assets/bg-hero.webp"
+        src="/assets/hero3.png"
         className="w-full h-screen object-cover"
         alt="hero"
         width={1920}
         height={1080}
       />
+      <Image
+        src="/assets/20m3-t.png"
+        className="absolute right-0"
+        alt="hero"
+        width={500}
+        height={500}
+      />
+      <Image
+        src="/assets/3008-t.png"
+        className="absolute bottom-0 mr-24"
+        alt="hero"
+        width={500}
+        height={500}
+      />
 
-      <div className="absolute top-0 w-full h-screen flex flex-col justify-center items-center">
-        <p className="text-white-900 text-4xl p-2  font-semi-bold">Votre spécialiste</p>
+      <div className="absolute top-0 w-full h-screen flex flex-col justify-center items-center z-20">
+        {/* <p className="text-white-900 text-4xl p-2  font-semi-bol -translate-y-6">Votre spécialiste</p> */}
 
         <br />
 
@@ -36,7 +50,7 @@ const Hero = () => {
           </span>
         </p>
         <br />
-        <button className="bg-gradient-to-l from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-r  lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl">
+        <button className="bg-gradient-to-l from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-r  lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl opacity-80">
           <Link href="/pages/services">En savoir plus </Link>
         </button>
       </div>

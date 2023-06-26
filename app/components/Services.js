@@ -9,7 +9,7 @@ const Analytics = () => {
   const [numTelVTC, setNumTelVTC] = useState(false);
   return (
     <div className="w-full bg-white py-10 px-4 min-h-screen">
-      <div className="max-w-screen mx-auto grid md:grid-cols-2">
+      <div className="max-w-screen grid md:grid-cols-2">
         
           <img
             src="/assets/laptop.jpg"
