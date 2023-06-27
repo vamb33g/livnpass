@@ -18,7 +18,7 @@ const Analytics = () => {
        
        
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold text-3xl p-2 sm:text-5xl md:text-6xl mb-5">
+          <p className="text-[#00df9a] font-bold text-3xl p-2 sm:text-5xl md:text-6xl mb-5 animate-fade-down">
             Liv&Pass Transports
           </p>
           <div className="sm:text-xl ">
@@ -26,7 +26,7 @@ const Analytics = () => {
               Votre partenaire de confiance pour des livraisons de qualité et un transport de
               personnes sûr.
             </p>
-            <ul className="flex flex-col text-slate-900 p-2 mb-5">
+            <ul className="flex flex-col text-slate-900 p-2 mb-5 ">
               <li>🚛 Livraisons de meubles, cuisines</li>
               <li>📦 Service de messagerie</li>
               <li>🔒 Solution de stockage sécurisée</li>
@@ -42,7 +42,7 @@ const Analytics = () => {
                   </span>
                   <br />
                   <div className="flex">
-                    <SiWebmoney className="w-6 h-6 text-green-700" /> &nbsp; : &nbsp;
+                    <SiWebmoney className="animate-ping w-6 h-6 text-green-700" /> &nbsp; : &nbsp;
                     <span className="border-b-2 border-blue-700 cursor-pointer text-blue-700">
                       site web vtc-thierry
                     </span>
@@ -68,7 +68,6 @@ const Analytics = () => {
             <ul className="flex flex-col text-black p-2 mb-5">
               <li>✅ 100% de satisfaction client.</li>
               <li>🕒 Respect des délais convenus.</li>
-              <li>🚀 Livraisons rapides et sécurisées.</li>
             </ul>
           </div>
           <button className=" animate-wiggle bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto lg:md:mx-0 py-3 hover:bg-gradient-to-l lg:md:w-[200px] lg:md:h-[60px] lg:md:text-xl">
