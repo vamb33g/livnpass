@@ -9,27 +9,34 @@ const Hero = () => {
     <div className="text-white flex flex-col min-h-screen">
       <Image
         src="/assets/hero3.png"
-        className="w-full h-screen object-cover"
+        className="hidden md:block w-full h-screen object-cover"
         alt="hero"
         width={1920}
         height={1080}
       />
-      {/* <Image
+      <Image
+        src="/assets/bg-hero.webp"
+        className="md:hidden w-full h-screen object-cover"
+        alt="hero"
+        width={1920}
+        height={1080}
+      />
+      <Image
         src="/assets/20m3-t.png"
-        className="absolute right-0 opacity-60 md:opacity-100 lg:w-1/3 animate-fade-left animate-once animate-ease-in animate-delay-1000"
+        className="hidden md:block absolute right-0 opacity-60 md:opacity-100 lg:w-1/3 animate-fade-left animate-once animate-ease-in animate-delay-1000"
         alt="hero"
         width={500}
         height={500}
       />
       <Image
         src="/assets/3008-t.png"
-        className="absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-1000 h-[374]:hidden"
+        className="hidden md:block absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-1000 h-[374]:hidden"
         alt="hero"
         width={500}
         height={500}
-      /> */}
+      />
 
-      <div className="absolute top-0 w-full h-screen flex flex-col justify-center items-center z-20 ">
+      <div className="absolute top-0 w-full min-h-screen flex flex-col justify-center items-center z-20 ">
 
         <br />
 

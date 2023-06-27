@@ -18,7 +18,7 @@ const Pub = () => {
           width: 'auto',
           height: 'auto',
         }}
-        className='animate-fade-right'
+        className='animate-fade-right '
       />
       
       <Image
@@ -29,7 +29,7 @@ const Pub = () => {
           width: 'auto',
           height: 'auto',
         }}
-       className="animate-fade-left"
+       className="animate-fade-left md:w-1/2"
       />
     </div>
   );
