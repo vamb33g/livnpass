@@ -3,18 +3,13 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import pub from '/public/assets/livnpass.png';
 import pub2 from '/public/assets/livnpass2.png';
-import { InView, useInView } from 'react-intersection-observer';
 
 
 const Pub = () => {
-  const [ref, inView, entry] = useInView({
-    /* Optional options */
-    threshold: 0,
-  });
   
   return (
     
-    <div className="flex flex-col md:flex-row lg:w-1/2" ref={ref}>
+    <div className="flex flex-col md:flex-row lg:w-1/2">
       <Image
         alt="pub"
         src={pub2}
@@ -23,7 +18,7 @@ const Pub = () => {
           width: 'auto',
           height: 'auto',
         }}
-        className='motion-safe:animate-fade-right'
+        className='animate-fade-right'
       />
       
       <Image
