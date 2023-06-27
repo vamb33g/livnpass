@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className=" text-shadow flex flex-col min-h-screen">
+    <div className="text-white flex flex-col min-h-screen">
       <Image
         src="/assets/hero3.png"
         className="w-full h-screen object-cover"
@@ -21,7 +21,7 @@ const Hero = () => {
         height={500}
       />
       <div>
-      <div className="absolute top-0 w-full md:h-screen mt-72 md:mt-0 flex flex-col justify-center items-center z-20 md:border-none border ">
+      <div className="top-0 w-full h-screen flex flex-col justify-center items-center z-20 ">
         <br />
 
         <p className="p-4 text-center font-mono animate-jump-in animate-once animate-duration-700 animate-delay-700 animate-ease-in animate-fill-backwards">

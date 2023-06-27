@@ -5,37 +5,31 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className=" text-shadow flex flex-col min-h-screen">
+    <div className="text-white flex flex-col min-h-screen pt-16 min-w-full">
       <Image
         src="/assets/hero3.png"
-        className="w-full h-screen object-cover"
+        className="absolute w-full min-h-screen object-cover"
         alt="hero"
         width={1920}
         height={1080}
-      />
+      />     
       <Image
         src="/assets/20m3-t.png"
-        className="absolute right-0 opacity-60 md:opacity-100 lg:w-1/3 animate-fade-left animate-once animate-ease-in animate-delay-900"
+        className="opacity-60 md:opacity-100 lg:w-1/3 animate-fade-left animate-once animate-ease-in animate-delay-900 border-[5px]"
         alt="20m3"
         width={500}
         height={500}
       />
-      <div>
-      <div className="absolute top-0 w-full md:h-screen mt-72 md:mt-0 flex flex-col justify-center items-center z-20 md:border-none border ">
+      <div className="flex flex-col justify-center items-center z-30 border-[5px] border-red-300">
         <br />
-
         <p className="p-4 text-center font-mono animate-jump-in animate-once animate-duration-700 animate-delay-700 animate-ease-in animate-fill-backwards">
           <span className="text-5xl md:text-6xl lg:text-7xl p-4 font-bold uppercase outline-black ">
             Logistique{' '}
           </span>
-
           <br />
-
           <span className="text-4xl md:text-5xl lg:text-6xl p-4">et </span>
-
           <br />
           <br />
-
           <span className="text-5xl md:text-6xl lg:text-7xl font-bold uppercase">Transports</span>
         </p>
         <br />
@@ -45,15 +39,12 @@ const Hero = () => {
       </div>
       <Image
         src="/assets/3008-t.png"
-        className="absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-900"
+        className=" bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-900 border-[5px] border-green-300"
         alt="3008"
         width={500}
         height={500}
       />
       </div>
-
-      
-    </div>
   );
 };
 
