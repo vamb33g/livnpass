@@ -51,6 +51,7 @@ module.exports = {
     },
   },
   variants: {
+    animation: ["motion-safe"],
   },
   plugins: [
     require('tailwindcss-animated')

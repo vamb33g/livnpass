@@ -43,7 +43,7 @@ const Navbar = () => {
             <Image
               src="/assets/logo-lp.png"
               alt=""
-              className="w-60 h-auto animate-fade-right"
+              className="w-60 h-auto animate-fade-right animation-delay-1000"
               width={240}
               height={60}
             />
