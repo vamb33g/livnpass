@@ -14,7 +14,7 @@ const Hero = () => {
         width={1920}
         height={1080}
       />
-      <Image
+      {/* <Image
         src="/assets/20m3-t.png"
         className="absolute right-0 opacity-60 md:opacity-100 lg:w-1/3 animate-fade-left animate-once animate-ease-in animate-delay-1000"
         alt="hero"
@@ -23,11 +23,11 @@ const Hero = () => {
       />
       <Image
         src="/assets/3008-t.png"
-        className="absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-1000"
+        className="absolute bottom-0 mr-24 opacity-100 md:opacity-100 lg:w-1/3 animate-fade-right animate-once animate-ease-in animate-delay-1000 h-[374]:hidden"
         alt="hero"
         width={500}
         height={500}
-      />
+      /> */}
 
       <div className="absolute top-0 w-full h-screen flex flex-col justify-center items-center z-20 ">
 
