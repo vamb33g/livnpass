@@ -12,7 +12,8 @@ const Analytics = () => {
           <div className="flex flex-col justify-center pb-4">
             <div className="p-7 bg-slate-400 text-center shadow-md rounded-lg">
               <p className="text-lg mb-2">
-                Fondée en 2016, notre entreprise offre <strong className='uppercase'>deux</strong>  services principaux :
+                Fondée en 2016, notre entreprise offre <strong className="uppercase">deux</strong>{' '}
+                services principaux :
               </p>
               <ul className="list-disc list-inside text-left mb-4">
                 <li className="mb-2">
@@ -32,7 +33,6 @@ const Analytics = () => {
             <Link href={'/pages/about'}>En savoir plus</Link>
           </button>
         </div>
-
         <img
           src="/assets/about2.png"
           alt="Laptop"
