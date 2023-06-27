@@ -21,7 +21,7 @@ const Hero = () => {
         height={500}
       />
       <div>
-      <div className="absolute top-0 w-full md:h-screen mt-72 md:mt-0 flex flex-col justify-center items-center z-20 md:border-none border ">
+      <div className="absolute top-0 w-full md:h-screen mt-72 md:mt-0 flex flex-col justify-center items-center z-20 md:border-none">
         <br />
 
         <p className="p-4 text-center font-mono animate-jump-in animate-once animate-duration-700 animate-delay-700 animate-ease-in animate-fill-backwards">
